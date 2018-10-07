@@ -1,0 +1,46 @@
+header {
+    position: fixed;
+    z-index: 4;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: rgb(80,80,80);
+    border-top: 2px;
+}
+
+@media all and (min-width: 780px) {    
+    header nav a:hover, header nav .active {
+        border-top: 3px solid rgb(92,173,211);
+        padding-top: 38px;
+        transition: width 2s;
+    }
+}
+
+.content-slider ul {
+    margin: 0;
+    padding: 0;
+}
+
+.content-slider ul li img {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+

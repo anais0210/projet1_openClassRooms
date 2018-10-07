@@ -1,0 +1,18 @@
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    color: rgb(119,119,119);
+    margin: 0;
+    font-size: 16px;
+    width: 100%;
+}
+
+h1, h2 {
+    font-size: 250%;
+    font-weight: 900;
+}
+
+h2, h3 {
+    color: rgb(39,39,39);
+    transition: width 2s;
+}
