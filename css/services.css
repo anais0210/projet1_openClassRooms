@@ -1,11 +1,25 @@
 
-.header_services h1:hover{
-	transition: width 2s ease 0s;	
-	font-weight: 1000;
+#services_body {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.img_services{
-	display: flex;
-	justify-content: space-around;
-	float: left;
+#services_conteneur {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#services img {
+    margin: 0 auto;
+}
+
+.services_description {
+    display: flex;
+}
+
+.services_text {
+    margin-left : 20px;
 }

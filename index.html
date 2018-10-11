@@ -5,12 +5,18 @@
 	<meta name="description" content="Agence web, sites, référencement, design, réseaux sociaux" />
 	<title>WebAgency : L'agence de tous vos projets</title>
 
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="manifest" href="favicon/manifest.json">
     <meta name="theme-color" content="#ffffff">
     
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/services.css">
     <link rel="stylesheet" type="text/css" href="css/mediaQuery.css">
+    <script src="https://use.fontawesome.com/f0bc94619a.js"></script>  
 </head>
 <body> 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -64,16 +70,53 @@
         
     </section>
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SERVICES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <div class="services">
-        <div class="header_services">
-            <h1>NOS SERVICES</h1>
-        </div>
-        <div class="img_services">
-            <img src="images/images/main-feature.png" alt="images services">
-        </div>
-        <h2>UX Design</h2>
-        <p>discipline qui prend en compte et anticipe les attentes et les besoins de l’utilisateur pour créer un site web ou une application. L’objectif final est de rendre un site accessible, facile à prendre en main et surtout efficace.</p>
-    </div>
+    <section id="services">
+        <div id="services_conteneur">
+            <div class="header_section">
+                <h2>NOS SERVICES</h2>
+                <hr/>
+                <p>WebAgency crée et développe votre projet en alliant <strong>design et solutions techniques</strong>.<br/>
+                    Nous vous proposons <strong>des solutions sur-mesure</strong> qui s'adaptent spécifiquement à votre projet.</p>
+            </div>
+            <div id="services_body">
+                <div>
+                    <img src="images/images/main-feature.png" alt="nos services ">
+                </div>
+                <div>
+                    <div class="services_description">
+                        <div class="services_logo">
+                            <div class="bulle_bleue"></div>
+                            <p class="fa_logo"><i class="fa fa-line-chart fa-lg" aria-hidden="true"></i></p>
+                        </div>
+                        <div class="services_text">
+                            <h3>UX design</h3>
+                            <p>Nous privilégions une approche centrée sur l'utilisateur. Nous étudions avec vous votre projet pour cibler vos besoins et le rendre accessible, ergonomique, et adaptatif (<strong>Responsive Web Design</strong>), afin d'affirmer votre présence sur tous les supports (ordinateur, tablette, smartphone).</p>
+                        </div>
+                    </div>
+                    <div class="services_description">
+                        <div class="services_logo">
+                            <div class="bulle_bleue"></div>
+                            <p class="fa_logo"><i class="fa fa-cubes fa-lg"></i></p>
+                        </div>
+                        <div class="services_text">
+                            <h3>UI design</h3>
+                            <p>Nous créons <strong>l'identité visuelle</strong> de votre projet sur-mesure. Nous mettons en place selon vos souhaits une charte graphique pratique et intuitive de qualité, dans l'esprit de votre entreprise. </p>
+                        </div>
+                    </div>
+                    <div class="services_description">
+                        <div class="services_logo">
+                            <div class="bulle_bleue"></div>
+                            <p class="fa_logo"><i class="fa fa-pie-chart fa-lg" aria-hidden="true"></i></p>
+                        </div>
+                        <div class="services_text">
+                            <h3>SEO</h3>
+                            <p>Nous optimisons <strong>la visibilité</strong> de votre site auprès des internautes sur les recherches en rapport avec vos produits et services par <strong>le référencement naturel</strong>. Vous allez être populaire !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
 
 
 </body>  
