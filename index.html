@@ -9,12 +9,15 @@
     
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/services.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaQuery.css">
 </head>
-<body>
+<body> 
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<header>
-        <div id="logo">
+        <figure id="logo">
             <a href="#slider"><img src="images/images/logo.png" alt="logo de l'agence"></a>
-        </div>
+        </figure>
         <nav>
             <ul>
                 <li><a class="active" href="#">Accueil</a></li>
@@ -24,15 +27,54 @@
             </ul>
         </nav>
 	</header>
-    <section>
-        <div class="content-slider">
-            <ul>
-                <li><img src="images/images/slider/bg1.jpg" alt="image n°1 du slider"></li>
-                <li class="hidden"><img src="images/images/slider/bg2.jpg" alt="images n°2 du slider"></li>
-            </ul>
-        </div>   
-        <div class="nav-slider">
-            
-        </div>   
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER_SLIDER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<section id="slider">
+        
+        <!-- First slide -->
+        <div id="one" class="slide">
+            <div class="header_slider"></div>
+            <div class="body_slider">
+                <nav>
+                    <a class="prev" href="#two"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></a>
+                    <a class="next" href="#two"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></a>
+                </nav>
+                <div class="text_slider">
+                    <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+                    <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                    <p><a href="#services">Plus d'infos</a></p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Second slide -->
+        <div id="two" class="slide">
+            <div class="header_slider"></div>
+            <div class="body_slider">
+                <nav>
+                    <a class="prev" href="#one"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></a>
+                    <a class="next" href="#one"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></a>
+                </nav>
+                <div class="text_slider">
+                    <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+                    <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                    <p><a href="#services">Plus d'infos</a></p>
+                </div>
+            </div>
+        </div>
+        
     </section>
-</body>   
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SERVICES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="services">
+        <div class="header_services">
+            <h1>NOS SERVICES</h1>
+        </div>
+        <div class="img_services">
+            <img src="images/images/main-feature.png" alt="images services">
+        </div>
+        <h2>UX Design</h2>
+        <p>discipline qui prend en compte et anticipe les attentes et les besoins de l’utilisateur pour créer un site web ou une application. L’objectif final est de rendre un site accessible, facile à prendre en main et surtout efficace.</p>
+    </div>
+
+
+</body>  
+</html> 

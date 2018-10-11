@@ -7,9 +7,11 @@ body {
     width: 100%;
 }
 
-h1, h2 {
+h1 {
     font-size: 250%;
     font-weight: 900;
+    color: black;
+    text-align: center;
 }
 
 h2, h3 {
