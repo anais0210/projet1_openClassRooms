@@ -1,0 +1,86 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SECTION PROJETS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#projets {
+    background-color: rgb(245,245,245);
+    padding-bottom: 50px;
+}
+
+/* Mise en place du menu interne aux projets */
+
+#projets ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    position: relative; /* Positionnement triangle sous l'élément à la sélection */
+    padding: 0;
+    margin: 50px 0;
+} 
+
+#projets li {
+    padding: 8px 10px;
+    background-color: rgb(229,229,229);
+    transition: background-color 1s, color 1s;
+}
+
+ #projets .select, #projets li:hover  {
+    background-color: rgb(92,173,211);
+    color: white;
+    font-weight: 300;
+    border-bottom: 4px solid rgb(70,140,173);
+    position: relative;
+    cursor: pointer;
+}
+
+#projets hr::after {
+    background-color: rgb(245,245,245);
+}
+
+.projets_album {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+}
+
+figure img {
+    width: 100%;
+}
+
+figure { 
+    position: relative; /* Positionnement de la légende au survol */
+    overflow: hidden; 
+    height: 175px;
+    width: 260px;
+    margin: 15px;
+    background-color: rgba(0,0,0,0);
+}
+/* Légende au survol */ 
+figcaption { 
+    position: absolute; 
+    background: rgba(0,0,0,0.4); 
+    color: white; 
+    width: 100%;
+    padding: 0 10px;;
+    opacity: 0;
+    bottom: -30%; 
+    left: 0;
+    transition: all 0.6s ease;
+}
+figure:hover figcaption {
+    opacity: 1;
+    bottom: 0;
+}
+/* logo oeil*/
+figcaption div {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(69,144,177);
+    border-radius: 17.5px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70%;
+    top: -20px;
+}
