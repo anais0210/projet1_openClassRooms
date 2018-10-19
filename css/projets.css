@@ -38,15 +38,17 @@
 .projets_album {
     display: flex;
     flex-wrap: wrap;
-    width: 85%;
+    width: 70%;
     margin: 0 auto;
+    justify-content: center;
+
 }
 
 figure img {
     width: 100%;
 }
 
-figure { 
+.portfolio { 
     position: relative; /* Positionnement de la légende au survol */
     overflow: hidden; 
     height: 175px;

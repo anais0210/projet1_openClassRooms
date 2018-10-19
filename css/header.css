@@ -26,7 +26,11 @@ header a {
     color: rgb(80,80,80);
     border-top: 2px;
 }
-#slider, .slide {
+
+#logo {
+    height: 65px;
+}
+#slider, .slider {
     height: 650px; /* Taille comprenant la slide + l'en-tête qui passe sous le menu */
     color: white;
     font-weight: bold;
@@ -78,7 +82,7 @@ header a {
 }
 
 /* Mise en place des liens de navigation du slider */
-.slide nav a {
+.slider nav a {
     z-index: 2;
     background: rgba(0,0,0,.4);
     color: #fff;
@@ -92,7 +96,7 @@ header a {
     align-items: center;
     justify-content: center; 
 }
-.slide nav a:hover {
+.slider nav a:hover {
     background: rgba(0,0,0,.8);
 }
 .prev {
