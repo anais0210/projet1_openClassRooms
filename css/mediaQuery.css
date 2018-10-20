@@ -1,6 +1,47 @@
-
 @media screen and (max-width: 780px) {
-    #slider{
+    body {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    h1, h2 {
+        font-size: 200%; /* Adaptation tailles des titres, plus petits*/
+    }
+    /* Media query menu / logo / slider */
+    #slider {
         display: none;
     }
+
+    #logo{
+        max-width: 220px;
+        margin: auto;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a:hover, header nav .active {
+        border: none;
+    }
+
+    /* Media query services */
+
+    #services_body {
+        flex-wrap: wrap;
+    }
+
+    #services, #projets {
+        padding-top: 100px;
+    }
+    .header_section
+    {
+        margin: auto;
+    }
+
+    #maps{
+        flex-wrap: wrap;
+    }
+
 }

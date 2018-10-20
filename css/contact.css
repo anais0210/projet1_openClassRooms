@@ -9,16 +9,17 @@
 }
 
 #form_contact {
-    background-color: rgba(92,173,211, .4);
+    background-color: rgba(92, 173, 211, .4);
     align-items: center;
 }
 
 form {
-    background-color: rgba(255,255,255, .8);
+    background-color: rgba(255, 255, 255, .8);
     width: 300px;
     height: 70%;
     margin: 55px 130px;
-    padding: 20px; padding-right: 30px;
+    padding: 20px;
+    padding-right: 30px;
 }
 
 form h2 {
@@ -32,7 +33,7 @@ input {
     height: 25px;
     border-radius: 3px;
     margin-bottom: 15px;
-    padding-left: 10px; 
+    padding-left: 10px;
 }
 
 textarea {
@@ -44,8 +45,8 @@ textarea {
 
 .bouton {
     color: white;
-    background-color: rgb(92,173,211); 
-    border-bottom: 3px solid rgb(70,140,173);
+    background-color: rgb(92, 173, 211);
+    border-bottom: 3px solid rgb(70, 140, 173);
     border-radius: 3px;
     padding: 5px 15px;
     text-decoration: none;
