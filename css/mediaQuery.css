@@ -39,9 +39,9 @@
     {
         margin: auto;
     }
-
-    #maps{
-        flex-wrap: wrap;
+    .maps{
+        display: none;
     }
+
 
 }
