@@ -22,7 +22,7 @@
     transition: background-color 1s, color 1s;
 }
 
- #projets .select, #projets li:hover  {
+#projets li:hover  {
     background-color: rgb(92,173,211);
     color: white;
     font-weight: 300;
