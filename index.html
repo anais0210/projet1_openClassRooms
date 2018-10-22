@@ -231,19 +231,20 @@
     <!-- Google Maps-->
     <iframe class="maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246133876!2d2.3476315514925408!3d48.873055307525895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1539362337363"
-            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            width="100%" height="450" frameborder="0"  allowfullscreen></iframe>
     <!-- Formulaire de contact-->
     <div id="form_contact">
-        <form>
+        <form action="file:///var/www/oc/projet1/index.html" method="post">
             <h2>Contact Info</h2>
             <p><span>WebAgency SAS</span><br/>25 rue d'Hauteville, 75010 PARIS<br/>Tél : 01 02 03 04 05</p>
-            <input type="text" name="name" placeholder="Nom"/>
-            <input type="text" name="email" placeholder="E-mail"/>
-            <input type="text" name="subject" placeholder="Sujet"/>
-            <textarea name="message" placeholder="Message"></textarea>
-            <p><a href="#" class="bouton" title="Envoyer votre message">Envoyer</a></p>
+            <input type="text" name="name" placeholder="Nom" required/>
+            <input type="text" name="email" placeholder="E-mail" required/>
+            <input type="text" name="subject" placeholder="Sujet"required/>
+            <textarea name="message" placeholder="Message"required></textarea>
+            <div class="button"><button type="submit">Envoyer</button></div>
         </form>
     </div>
 </section>
+
 </body>
-</html> 
+</html>
