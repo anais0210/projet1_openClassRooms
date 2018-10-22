@@ -20,10 +20,9 @@ h1 {
 h2, h3 {
     font-family: 'Old Standard TT', serif;
     color: rgb(39,39,39);
-    transition: all 0.8s ease;
 }
 
-/*  SERVICES ET SECTION  */
+/*  SERVICES ET PROJETS  */
 
 .header_section {
     text-align: center;
