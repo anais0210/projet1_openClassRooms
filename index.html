@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf8">
-    <meta name="copyright" content="© Sparesotto_anais_web_agency" />
-    <meta title="WebAngency"/>
-    <meta name="description" content="Agence web, sites, référencement, design, réseaux sociaux"/>
+    <meta charset="utf-8">
+    <meta name="copyright" content="© Sparesotto_anais_web_agency"/>
+    <meta name="description"
+          content="WebAgency. Un site sur les services offerts par une agence web, sites, référencement, design, réseaux sociaux"/>
     <title>WebAgency : L'agence de tous vos projets</title>
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#ffffff">
-   <!-- meta twitter-->
+    <!-- meta twitter-->
     <meta name="twitter:card" content="summary">
-   <!-- meta facebook -->
+    <!-- meta facebook -->
     <meta property="og:title" content="WebAgency"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://www.webagency.com/"/>
+    <meta property="og:url" content="http://web-agency.sparesotto-anais.fr/"/>
     <meta property="og:image" content="images/images/logo.png"/>
-    <meta property="og:description" content="Description Here"/>
-    <!--- Icone du site --->
+    <meta property="og:description"
+          content="WebAgency. Un site sur les services offerts par une agence web, sites, référencement, design, réseaux sociaux"/>
+    <!-- Icone du site -->
     <link rel="icon" type="image/x-icon" href="images/images/ico/favicon.ico" sizes="16x16">
-    <!--- Lien vers les differents fichier CSS--->
+    <link rel="apple-touch-icon-precomposed" href="images/images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/images/ico/apple-touch-icon-144-precomposed.png">
+    <!-- Lien vers les differents fichier CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/services.css">
     <link rel="stylesheet" type="text/css" href="css/projets.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="stylesheet" type="text/css" href="css/mediaQuery.css">
-    <!--- Utilisation le la librairie FontAwesome--->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+    <!-- Utilisation le la librairie FontAwesome-->
     <script src="https://use.fontawesome.com/f0bc94619a.js"></script>
 </head>
 <body>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--  HEADER -->
 <header>
     <figure id="logo">
         <a href="#slider"><img src="images/images/logo.png" alt="logo de l'agence"></a>
     </figure>
-    <nav>
+    <nav class="menu">
         <ul>
             <li><a href="#">Accueil</a></li>
             <li><a href="#services">Services</a></li>
@@ -44,49 +50,58 @@
         </ul>
     </nav>
 </header>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER_SLIDER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- HEADER_SLIDER -->
 <section id="slider">
-        <!-- First slide -->
-        <div id="one" class="slider">
-            <div class="header_slider"></div>
-            <div class="body_slider">
-                <nav>
-                    <a class="prev" href="#two"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></a>
-                    <a class="next" href="#two"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></a>
-                </nav>
-                <div class="text_slider">
-                    <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
-                    <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
-                    <p><a href="#services">Plus d'infos</a></p>
-                </div>
+    <!-- First slide -->
+    <div id="one" class="slider">
+        <div class="header_slider"></div>
+        <div class="body_slider">
+            <nav>
+                <a class="prev" href="#two"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></a>
+                <a class="next" href="#two"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></a>
+            </nav>
+            <div class="text_slider">
+                <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+                <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                <p><a href="#services">Plus d'infos</a></p>
             </div>
         </div>
-        <!-- Second slide -->
-        <div id="two" class="slide">
-            <div class="header_slider"></div>
-            <div class="body_slider">
-                <nav>
-                    <a class="prev" href="#one"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></a>
-                    <a class="next" href="#one"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></a>
-                </nav>
-                <div class="text_slider">
-                    <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
-                    <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
-                    <p><a href="#services">Plus d'infos</a></p>
-                </div>
+    </div>
+    <!-- Second slide -->
+    <div id="two" class="slide">
+        <div class="header_slider"></div>
+        <div class="body_slider">
+            <nav>
+                <a class="prev" href="#one"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></a>
+                <a class="next" href="#one"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></a>
+            </nav>
+            <div class="text_slider">
+                <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+                <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                <p><a href="#services">Plus d'infos</a></p>
             </div>
         </div>
     </div>
 </section>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SERVICES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- SERVICES -->
 <section id="services">
     <div id="services_conteneur">
         <div class="header_section">
             <h2>NOS SERVICES</h2>
-            <i class="fa fa-circle" aria-hidden="true"></i>
-            <hr>
-            <p>WebAgency crée et développe votre projet en alliant <strong>design et solutions techniques</strong>.<br/>
-                Nous vous proposons <strong>des solutions sur-mesure</strong> qui s'adaptent spécifiquement à votre
+            <div class="souligne">
+                <div>
+                    <hr class="souligneL">
+                </div>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <div class="souligneR">
+                    <hr>
+                </div>
+            </div>
+
+            <p>WebAgency crée et développe votre projet en alliant <strong>design et solutions
+                techniques</strong>.<br/>
+                Nous vous proposons <strong>des solutions sur-mesure</strong> qui s'adaptent spécifiquement à
+                votre
                 projet.</p>
         </div>
         <div id="services_body">
@@ -101,8 +116,10 @@
                     </div>
                     <div class="services_text">
                         <h3>UX design</h3>
-                        <p><strong>L’UX Design</string> est une discipline qui prend en compte et anticipe les attentes
-                            et les besoins de l’utilisateur pour créer un site web ou une application. L’objectif final
+                        <p><strong>L’UX Design</strong> est une discipline qui prend en compte et anticipe les
+                            attentes
+                            et les besoins de l’utilisateur pour créer un site web ou une application.
+                            L’objectif final
                             est de rendre un site accessible, facile à prendre en main et surtout efficace.</p>
                     </div>
                 </div>
@@ -113,7 +130,8 @@
                     </div>
                     <div class="services_text">
                         <h3>UI design</h3>
-                        <p>L’UI design se rapporte donc à l’environnement graphique dans lequel évolue l’utilisateur
+                        <p>L’UI design se rapporte donc à l’environnement graphique dans lequel évolue
+                            l’utilisateur
                             d’un logiciel, d’un site web ou d’une application </p>
                     </div>
                 </div>
@@ -124,8 +142,10 @@
                     </div>
                     <div class="services_text">
                         <h3>SEO</h3>
-                        <p>L’optimisation pour les moteurs de recherche regroupe un ensemble de techniques qui permet de
-                            renforcer la visibilité d’un site dans les pages de résultats naturels d'un moteur de
+                        <p>L’optimisation pour les moteurs de recherche regroupe un ensemble de techniques qui
+                            permet de
+                            renforcer la visibilité d’un site dans les pages de résultats naturels d'un moteur
+                            de
                             recherche.</p>
                     </div>
                 </div>
@@ -134,17 +154,26 @@
     </div>
 </section>
 
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROJETS / PORTFOLIO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--    PROJETS / PORTFOLIO  -->
 <section id="projets">
     <div class="header_section">
         <h2>NOS PROJETS</h2>
-        <i class="fa fa-circle" aria-hidden="true"></i>
-        <p>Voici les derniers projets réalisé par la Web Agency.<br/ >Toute une équipe au service de votre vitrine Web
-        </p>
+        <div class="souligne">
+            <div>
+                <hr class="souligneL">
+            </div>
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <div>
+                <hr class="souligneR">
+            </div>
+        </div>
+    </div>
+    <p id="text-projet">Voici les derniers projets réalisé par la Web Agency.<br/>Toute une équipe au service de votre vitrine Web
+    </p>
     </div>
     <nav>
         <ul>
-            <li id="all_works">All Works</li>
+            <li id="all_works" class="select">All Works</li>
             <li id="creative">Creatif</li>
             <li id="corporate">Entreprise</li>
             <li id="portfolio">Portfolio</li>
@@ -161,7 +190,7 @@
                 </div>
             </figcaption>
         </figure>
-        <figure class="portfolio">
+        <figure class="portfolio corporate">
             <img src="images/images/portfolio/02.jpg" alt="projet Creative item2">
             <figcaption>
                 <p>Creatif</p>
@@ -170,7 +199,7 @@
                 </div>
             </figcaption>
         </figure>
-        <figure class="portfolio">
+        <figure class="portfolio corporate">
             <img src="images/images/portfolio/03.jpg" alt="projet Creative item3">
             <figcaption>
                 <p>Creatif</p>
@@ -226,12 +255,12 @@
         </figure>
     </div>
 </section>
-<!----------------------------------------CONTACT - FOOTER - MAPS -------------------------->
+<!-- CONTACT - FOOTER - MAPS -->
 <section id="contact">
     <!-- Google Maps-->
     <iframe class="maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246133876!2d2.3476315514925408!3d48.873055307525895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1539362337363"
-            width="100%" height="450" frameborder="0"  allowfullscreen></iframe>
+            width="100" height="450" allowfullscreen></iframe>
     <!-- Formulaire de contact-->
     <div id="form_contact">
         <form action="file:///var/www/oc/projet1/index.html" method="post">
@@ -239,12 +268,13 @@
             <p><span>WebAgency SAS</span><br/>25 rue d'Hauteville, 75010 PARIS<br/>Tél : 01 02 03 04 05</p>
             <input type="text" name="name" placeholder="Nom" required/>
             <input type="text" name="email" placeholder="E-mail" required/>
-            <input type="text" name="subject" placeholder="Sujet"required/>
-            <textarea name="message" placeholder="Message"required></textarea>
-            <div class="button"><button type="submit">Envoyer</button></div>
+            <input type="text" name="subject" placeholder="Sujet" required/>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <div class="button">
+                <button type="submit">Envoyer</button>
+            </div>
         </form>
     </div>
 </section>
-
 </body>
 </html>

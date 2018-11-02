@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aad1c6f6-21a1-4530-99f8-a1bafff5bf91" name="webagency" url="http://ftp.cluster027.hosting.ovh.net">
+        <fileTransfer host="ftp.cluster027.hosting.ovh.net" port="21" rootFolder="/www/webagency">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

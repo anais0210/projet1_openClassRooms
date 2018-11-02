@@ -20,6 +20,7 @@
     header {
         display: flex;
         flex-direction: column;
+
     }
 
     header nav a:hover, header nav .active {
@@ -35,11 +36,26 @@
     #services, #projets {
         padding-top: 100px;
     }
+
     .header_section
     {
         margin: auto;
     }
+
     .maps{
         display: none;
+    }
+
+    #services{
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #form_contact form{
+        height: none;
+        width: 80%;
+        margin: 10px;
     }
 }
