@@ -90,3 +90,76 @@ figcaption div {
 #text-projet{
     text-align: center;
 }
+.iconeprojet
+{
+    display:flex;
+    justify-content: center;
+
+}
+.iconeprojet ul
+{
+    display:flex;
+    list-style-type: none;
+    position:relative;
+    padding:0;
+    margin:20px;
+    justify-content: center;
+
+}
+
+.iconeprojet a
+{
+    text-decoration:none;
+    color: black;
+}
+
+.iconeprojet li
+{
+    padding: 14px 10px;
+    background-color:rgb(229, 229, 229);
+    position: relative;
+    text-decoration:none;
+}
+#all_works:hover::after,#creative:hover::after,#corporate:hover::after,#portfolio:hover::after
+{
+    content: '';
+    position: absolute;
+    height: 0;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-top: 10px solid rgb(48,162,191);
+    display: block;
+    width: 0;
+    top:100%;
+    left:40%;
+}
+
+.iconeprojet li:hover
+{
+    background-color: #5CADD3;
+    border-bottom: 3px solid rgb(48,162,191);
+}
+
+.iconeprojet li:hover a
+
+{
+    color: white;
+}
+.iconeprojet ul li:first-child
+{
+    border-radius: 6px 0 0 6px;
+}
+
+.iconeprojet ul li:last-child
+{
+    border-radius: 0 6px 6px 0;
+}
+
+.iconeprojet i
+{
+    /*color:#6BA1B8;*/
+    left: 38%;
+    position:absolute;
+    top:88%;
+
+}
