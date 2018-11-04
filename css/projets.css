@@ -7,34 +7,6 @@
 
 /* Mise en place du menu dans la section projets */
 
-#projets ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    position: relative; /* Positionnement triangle sous l'élément à la sélection */
-    padding: 0;
-    margin: 50px 0;
-} 
-
-#projets li {
-    padding: 8px 10px;
-    background-color: rgb(229,229,229);
-    transition: background-color 1s, color 1s;
-}
-
-#projets .select, #projets li:hover  {
-    background-color: rgb(92,173,211);
-    color: white;
-    font-weight: 300;
-    border-bottom: 4px solid rgb(70,140,173);
-    position: relative;
-    cursor: pointer;
-}
-
-#projets hr::after {
-    background-color: rgb(245,245,245);
-}
-
 .projets_album {
     display: flex;
     flex-wrap: wrap;
