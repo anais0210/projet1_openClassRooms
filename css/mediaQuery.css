@@ -4,6 +4,10 @@
         margin: 0%;
         padding: 0%;
     }
+
+    figure img{
+        margin: 10px;
+    }
     h1, h2 {
         font-size: 200%; /* Adaptation tailles des titres, plus petits*/
     }
@@ -13,8 +17,7 @@
     }
 
     #logo{
-        max-width: 220px;
-        margin: auto;
+        max-width: 200px;
     }
 
     header {
@@ -26,7 +29,6 @@
     header nav a:hover, header nav .active {
         border: none;
     }
-
     /* Media query services */
 
     #services_body {
@@ -49,12 +51,47 @@
     #services{
         overflow-x: hidden;
     }
+
+    #form_contact form{
+        margin: auto;
+    }
+
+    .projets_album{
+        width: 100%;
+    }
+    figure{
+        width: 25%;
+    }
 }
+
+
 
 @media screen and (max-width: 480px) {
 
     #form_contact form{
         width: 80%;
         margin: 10px;
+    }
+
+    header ul{
+        padding: 0;
+    }
+
+    .iconeprojet li {
+        width: 100%;
+    }
+
+    .iconeprojet {
+        width: 100%;;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .projets_album{
+        width: 100%;
+    }
+    .portfolio{
+        width: 20%;
+        height: 100%;
     }
 }
