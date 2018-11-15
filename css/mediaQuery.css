@@ -16,8 +16,9 @@
         display: none;
     }
 
-    #logo{
+    #logo {
         max-width: 200px;
+        margin-top: 50px;
     }
 
     header {
@@ -36,7 +37,7 @@
     }
 
     #services, #projets {
-        padding-top: 100px;
+        padding-top: 160px;
     }
 
     .header_section
@@ -50,6 +51,7 @@
 
     #services{
         overflow-x: hidden;
+        padding-top: 20%;
     }
 
     #form_contact form{
