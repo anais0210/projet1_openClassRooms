@@ -1,7 +1,18 @@
 #Projet 1 Formation openClassRooms  Septembre 2018
 
+-> Soutenance Validé : appréciation du mentor validateur : 
+-> URL du site : http://www.web-agency.sparesotto-anais.fr/
+
+Code propre est bien structuré. Choix des balises sémantiques pertinent.
+Présentation de qualité et support soigné.
+L’oral est fluide est bien organisé.
+Très bon travail, surtout pour un premier projet.
+ 
+ ------------------------------------------------------
 
 ##Intégrez la maquette du site d'une agence web
+
+------------------------------------------------------
 
 ###énoncé : 
 
