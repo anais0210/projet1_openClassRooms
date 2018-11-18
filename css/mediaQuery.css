@@ -24,6 +24,7 @@
     header {
         display: flex;
         flex-direction: column;
+        height: 150px;
 
     }
 
@@ -38,6 +39,7 @@
 
     #services, #projets {
         padding-top: 160px;
+        overflow-x: hidden;
     }
 
     .header_section
@@ -47,11 +49,6 @@
 
     .maps{
         display: none;
-    }
-
-    #services{
-        overflow-x: hidden;
-        padding-top: 20%;
     }
 
     #form_contact form{
